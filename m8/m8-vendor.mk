@@ -18,5 +18,3 @@
 PRODUCT_PACKAGES += \
     EasyAccessService \
     libtime_genoff
-
-$(call inherit-product, vendor/htc/m8/m8-vendor-blobs.mk)

@@ -18,6 +18,9 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter m8,$(TARGET_DEVICE)),)
 
+PROP_FILES := $(shell (find $(LOCAL_PATH)/proprietary/ -type f | sed 's|$(LOCAL_PATH)/proprietary/||g'))
+$(foreach f, $(PROP_FILES), $(shell mkdir -p $(TARGET_OUT)/$(dir $(f))); $(shell cp $(LOCAL_PATH)/proprietary/$(f) $(TARGET_OUT)/$(f)))
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
 LOCAL_MODULE_OWNER := htc

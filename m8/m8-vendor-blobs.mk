@@ -74,6 +74,15 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8/proprietary/blobs/spr/vendor/lib/libril-qcril-hook-oem.so:/system/blobs/spr/vendor/lib/libril-qcril-hook-oem.so \
         vendor/htc/m8/proprietary/blobs/vzw/bin/netmgrd:/system/blobs/vzw/bin/netmgrd \
         vendor/htc/m8/proprietary/blobs/vzw/bin/qmuxd:/system/blobs/vzw/bin/qmuxd \
+        vendor/htc/m8/proprietary/blobs/vzw/vendor/firmware/wcnss.b00:/system/blobs/vzw/vendor/firmware/wcnss.b00 \
+        vendor/htc/m8/proprietary/blobs/vzw/vendor/firmware/wcnss.b01:/system/blobs/vzw/vendor/firmware/wcnss.b01 \
+        vendor/htc/m8/proprietary/blobs/vzw/vendor/firmware/wcnss.b02:/system/blobs/vzw/vendor/firmware/wcnss.b02 \
+        vendor/htc/m8/proprietary/blobs/vzw/vendor/firmware/wcnss.b04:/system/blobs/vzw/vendor/firmware/wcnss.b04 \
+        vendor/htc/m8/proprietary/blobs/vzw/vendor/firmware/wcnss.b06:/system/blobs/vzw/vendor/firmware/wcnss.b06 \
+        vendor/htc/m8/proprietary/blobs/vzw/vendor/firmware/wcnss.b07:/system/blobs/vzw/vendor/firmware/wcnss.b07 \
+        vendor/htc/m8/proprietary/blobs/vzw/vendor/firmware/wcnss.b08:/system/blobs/vzw/vendor/firmware/wcnss.b08 \
+        vendor/htc/m8/proprietary/blobs/vzw/vendor/firmware/wcnss.b09:/system/blobs/vzw/vendor/firmware/wcnss.b09 \
+        vendor/htc/m8/proprietary/blobs/vzw/vendor/firmware/wcnss.mdt:/system/blobs/vzw/vendor/firmware/wcnss.mdt \
         vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libdiag.so:/system/blobs/vzw/vendor/lib/libdiag.so \
         vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libdsi_netctrl.so:/system/blobs/vzw/vendor/lib/libdsi_netctrl.so \
         vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libdsnetutils.so:/system/blobs/vzw/vendor/lib/libdsnetutils.so \

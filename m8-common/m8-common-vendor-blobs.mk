@@ -282,11 +282,11 @@ PRODUCT_COPY_FILES += \
         vendor/htc/m8-common/proprietary/vendor/lib/librpmb.so:/system/vendor/lib/librpmb.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libssd.so:/system/vendor/lib/libssd.so \
         vendor/htc/m8-common/proprietary/lib/libdrmdecrypt.so:/system/lib/libdrmdecrypt.so \
-        vendor/htc/m8-common/proprietary/etc/firmware/widevine.b00:/system/etc/firmware/widevine.b00 \
-        vendor/htc/m8-common/proprietary/etc/firmware/widevine.b01:/system/etc/firmware/widevine.b01 \
-        vendor/htc/m8-common/proprietary/etc/firmware/widevine.b02:/system/etc/firmware/widevine.b02 \
-        vendor/htc/m8-common/proprietary/etc/firmware/widevine.b03:/system/etc/firmware/widevine.b03 \
-        vendor/htc/m8-common/proprietary/etc/firmware/widevine.mdt:/system/etc/firmware/widevine.mdt \
+        vendor/htc/m8-common/proprietary/vendor/firmware/widevine.b00:/system/vendor/firmware/widevine.b00 \
+        vendor/htc/m8-common/proprietary/vendor/firmware/widevine.b01:/system/vendor/firmware/widevine.b01 \
+        vendor/htc/m8-common/proprietary/vendor/firmware/widevine.b02:/system/vendor/firmware/widevine.b02 \
+        vendor/htc/m8-common/proprietary/vendor/firmware/widevine.b03:/system/vendor/firmware/widevine.b03 \
+        vendor/htc/m8-common/proprietary/vendor/firmware/widevine.mdt:/system/vendor/firmware/widevine.mdt \
         vendor/htc/m8-common/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/m8-common/proprietary/vendor/lib/libWVphoneAPI.so:/system/vendor/lib/libWVphoneAPI.so \

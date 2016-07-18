@@ -16,6 +16,12 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
+    com.verizon.ims \
+    ims \
+    imssettings \
+    imscmlibrary
+
+PRODUCT_PACKAGES += \
     TimeService \
     libril \
     libtime_genoff \

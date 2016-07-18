@@ -783,6 +783,35 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/htc/hima-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/htc/hima-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/htc/hima-common/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/htc/hima-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/htc/hima-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/htc/hima-common/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/htc/hima-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
+    vendor/htc/hima-common/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/htc/hima-common/proprietary/lib64/hw/sensors.msm8994.so:system/lib64/hw/sensors.msm8994.so \
     vendor/htc/hima-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/htc/hima-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \

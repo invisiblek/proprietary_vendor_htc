@@ -146,6 +146,3 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libsmemlog.so:system/blobs/vzw/vendor/lib/libsmemlog.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libsystem_health_mon.so:system/blobs/vzw/vendor/lib/libsystem_health_mon.so \
     vendor/htc/m8/proprietary/blobs/vzw/vendor/lib/libxml.so:system/blobs/vzw/vendor/lib/libxml.so
-
-PRODUCT_PACKAGES += \
-    libril
